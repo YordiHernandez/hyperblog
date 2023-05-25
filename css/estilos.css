@@ -1,5 +1,18 @@
 body {
     text-align: center;
     font-family: Arial;
-    color: deeppink;
+    color: rgb(65, 63, 64);
+    font-size: 16px;
+}
+
+#container {
+    width: 70%; /*el 100% es el padre, si no se tiene padre tomara la ventana entera*/
+    padding: 1em; /*1em ocupa el tamaño de letra del padre, si no se asigna un tamaño de letra especifico a este* y si no hay padre ni font size toma el del navegador por defetcto*/
+    text-align: left;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+}
+
+#container h1{
+    font-size: 20px;
 }
